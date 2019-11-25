@@ -11,8 +11,8 @@ if __name__ == '__main__':
     feature_data = train_data[:, 1:]
     print(feature_data.shape)
 
-    kmeans = KMeans(n_clusters=2, random_state=0).fit(feature_data)
-    labels = kmeans.labels_
+    model = KMeans(n_clusters=2, random_state=0).fit(feature_data)
+    labels = model.labels_
 
     with open('submit.csv', mode='w') as submit:
         submit_writer = csv.writer(submit, delimiter=',')
