@@ -2,9 +2,9 @@
 
 Basically, the tasks required implementation of machine learning algorithms:
 
-1. Clustering: `./clustering/`
-2. Suppport vector machines: `./hyperplane/`
-3. K-nearest neighbors algorithm: `./knn/`
-4. Linear regression: `./linreg/`
-5. Pathfinding on Hilbert curves: `./pathfinding/`
+1. Clustering: `clustering/`
+2. Suppport vector machines: `hyperplane/`
+3. K-nearest neighbors algorithm: `knn/`
+4. Linear regression: `linreg/`
+5. Pathfinding on Hilbert curves: `pathfinding/`
 
